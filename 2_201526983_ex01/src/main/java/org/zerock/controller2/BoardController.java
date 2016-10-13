@@ -55,6 +55,7 @@ public class BoardController {
 
     rttr.addFlashAttribute("msg", "success");
     return "redirect:/board/listAll";
+    // 테슽트
     //return "/board/success";
   }
 
